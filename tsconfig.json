@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "app/webapp"
+    },
+    {
+      "path": "domain"
+    },
+    {
+      "path": "shared-lib"
+    }
+  ]
+}

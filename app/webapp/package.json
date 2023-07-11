@@ -1,0 +1,21 @@
+{
+  "name": "@test-sgamid/webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc --build",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@test-sgamid/domain": "*",
+    "fastify": "^4.19.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "@types/node": "^20.3.3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@test-sgamid/npm-workspaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "shared-lib",
+    "domain",
+    "app/webapp"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "2.8.8",
+    "rimraf": "^5.0.1"
+  }
+}
